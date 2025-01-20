@@ -21,4 +21,4 @@ for i in range(len(Prices)):
         pass
 
 
-print(Ans)
+print("Results calculated with contributions from Tamanda:",Ans)
