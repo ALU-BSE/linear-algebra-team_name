@@ -11,4 +11,4 @@ for i in range(len(Prices)):
          row_sum += Prices[i][j] * Array2[j]
     Ans.append(row_sum)
 
-print("Results calculated with contributions from Tamanda:",Ans)
+print (Ans)
