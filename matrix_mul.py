@@ -8,7 +8,7 @@ Ans = []
 for i in range(len(Prices)):
     row_sum = 0
     for j in range(len(Prices[0])):
-         row_sum += Prices[i][j] * Array2[j]
+         row_sum += Prices[i][j] * Array2[j]  # calculates the sum of prices and adds them
     Ans.append(row_sum)
 
 print (Ans)
